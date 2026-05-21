@@ -1047,36 +1047,64 @@
     <div class="section-title">Featured <span>Projects</span></div>
     <div class="projects-grid">
 
-     <div class="project-card reveal">
-  <div class="project-thumb" style="background:linear-gradient(135deg,#07111f,#0d1f35);">
-    🌦️
-    <div class="thumb-overlay"></div>
-  </div>
-  <div class="project-body">
-    <div class="project-tags">
-      <span class="ptag">HTML</span>
-      <span class="ptag">CSS</span>
-      <span class="ptag">JavaScript</span>
-    </div>
-    <div class="project-title">WeatherLens</div>
-    <p class="project-desc">Live weather app showing real-time temperature, humidity, wind speed, and 5-day forecast for any city worldwide. Features dynamic backgrounds and °C/°F toggle.</p>
-    <div class="project-links">
-      <a href="https://jyothsnaperuri-weather-app.netlify.app/" class="plink live" target="_blank">↗ Live Demo</a>
-      <a href="https://github.com/jyothsnaPeruri/Weather-app" class="plink" target="_blank">⌥ GitHub</a>
-    </div>
-  </div>
-</div>
+      <!-- 1. AI Research Assistant (Live) -->
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#0a0a2e,#1a0550,#2d0080);position:relative;overflow:hidden;">
+          🔍
+          <div class="thumb-overlay"></div>
+          <div style="position:absolute;bottom:12px;left:0;right:0;display:flex;justify-content:center;gap:6px;flex-wrap:wrap;padding:0 12px;">
+            <span style="background:rgba(99,102,241,0.3);border:1px solid rgba(99,102,241,0.5);color:#a5b4fc;font-size:10px;padding:2px 8px;border-radius:99px;backdrop-filter:blur(6px);">Live</span>
+            <span style="background:rgba(16,185,129,0.2);border:1px solid rgba(16,185,129,0.4);color:#6ee7b7;font-size:10px;padding:2px 8px;border-radius:99px;backdrop-filter:blur(6px);">AI Agent</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="ptag">Python</span>
+            <span class="ptag">FastAPI</span>
+            <span class="ptag">Groq LLM</span>
+            <span class="ptag">Next.js</span>
+            <span class="ptag">Tavily</span>
+          </div>
+          <div class="project-title">AI Research Assistant</div>
+          <p class="project-desc">Real-time AI agent that searches the web, reads top sources, and returns cited answers. Built with Groq (Llama 3.3 70B) + Tavily Search API + FastAPI backend + Next.js frontend. Deployed live on Render + Vercel.</p>
+          <div class="project-links">
+            <a href="https://research-agent-frontend-gray.vercel.app/" class="plink live" target="_blank">↗ Live Demo</a>
+            <a href="https://github.com/jyothsnaPeruri/Research-Agent" class="plink" target="_blank">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. WeatherLens (Live) -->
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#07111f,#0d1f35);">
+          🌦️
+          <div class="thumb-overlay"></div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="ptag">HTML</span>
+            <span class="ptag">CSS</span>
+            <span class="ptag">JavaScript</span>
+          </div>
+          <div class="project-title">WeatherLens</div>
+          <p class="project-desc">Live weather app showing real-time temperature, humidity, wind speed, and 5-day forecast for any city worldwide. Features dynamic backgrounds and °C/°F toggle.</p>
+          <div class="project-links">
+            <a href="https://jyothsnaperuri-weather-app.netlify.app/" class="plink live" target="_blank">↗ Live Demo</a>
+            <a href="https://github.com/jyothsnaPeruri/Weather-app" class="plink" target="_blank">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. E-Commerce Store (Coming Soon) -->
       <div class="project-card reveal">
         <div class="project-thumb" style="background:linear-gradient(135deg,#1a0520,#6b0a3d);">
           🛒
           <div class="thumb-overlay"></div>
         </div>
         <div class="project-body">
-          <div class="project-tags"><span class="ptag">Next.js</span><span class="ptag">Stripe</span><span
-              class="ptag">PostgreSQL</span></div>
+          <div class="project-tags"><span class="ptag">Next.js</span><span class="ptag">Stripe</span><span class="ptag">PostgreSQL</span></div>
           <div class="project-title">E-Commerce Store</div>
-          <p class="project-desc">Full-featured e-commerce with cart, payments, order tracking, and admin panel.
-            Mobile-first design.</p>
+          <p class="project-desc">Full-featured e-commerce with cart, payments, order tracking, and admin panel. Mobile-first design.</p>
           <div class="project-links">
             <span class="plink live" style="cursor: not-allowed; opacity: 0.6;">↗ Coming Soon</span>
             <a href="#" class="plink">⌥ GitHub</a>
@@ -1084,17 +1112,16 @@
         </div>
       </div>
 
+      <!-- 4. Real-Time Chat App (Coming Soon) -->
       <div class="project-card reveal">
         <div class="project-thumb" style="background:linear-gradient(135deg,#050a30,#0a2060);">
           💬
           <div class="thumb-overlay"></div>
         </div>
         <div class="project-body">
-          <div class="project-tags"><span class="ptag">Socket.io</span><span class="ptag">React</span><span
-              class="ptag">Redis</span></div>
+          <div class="project-tags"><span class="ptag">Socket.io</span><span class="ptag">React</span><span class="ptag">Redis</span></div>
           <div class="project-title">Real-Time Chat App</div>
-          <p class="project-desc">WebSocket-powered chat with rooms, typing indicators, message history, and file
-            sharing.</p>
+          <p class="project-desc">WebSocket-powered chat with rooms, typing indicators, message history, and file sharing.</p>
           <div class="project-links">
             <span class="plink live" style="cursor: not-allowed; opacity: 0.6;">↗ Coming Soon</span>
             <a href="#" class="plink">⌥ GitHub</a>
@@ -1102,39 +1129,16 @@
         </div>
       </div>
 
-
-
+      <!-- 5. Task Management App (Coming Soon) -->
       <div class="project-card reveal">
         <div class="project-thumb" style="background:linear-gradient(135deg,#1a1000,#4d3000);">
           📋
           <div class="thumb-overlay"></div>
         </div>
         <div class="project-body">
-          <div class="project-tags"><span class="ptag">React</span><span class="ptag">Firebase</span><span
-              class="ptag">Tailwind</span></div>
+          <div class="project-tags"><span class="ptag">React</span><span class="ptag">Firebase</span><span class="ptag">Tailwind</span></div>
           <div class="project-title">Task Management App</div>
-          <p class="project-desc">Kanban board with drag-and-drop, team collaboration, deadlines, and real-time sync.
-          </p>
-          <div class="project-links">
-            <span class="plink live" style="cursor: not-allowed; opacity: 0.6;">↗ Coming Soon</span>
-            <a href="#" class="plink">⌥ GitHub</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card reveal">
-        <div class="project-thumb" style="background:linear-gradient(135deg,#150010,#45003a);">
-          🤖
-          <div class="thumb-overlay"></div>
-        </div>
-        <div class="project-body">
-          <div class="project-tags"><span class="ptag">
-              <Java>
-                <Springboot></Springboot>
-            </span><span class="ptag">OpenAI</span><span class="ptag">FastAPI</span></div>
-          <div class="project-title">AI Content Generator</div>
-          <p class="project-desc">GPT-powered tool that generates blogs, social posts, and code snippets. Rate limiting
-            + auth included.</p>
+          <p class="project-desc">Kanban board with drag-and-drop, team collaboration, deadlines, and real-time sync.</p>
           <div class="project-links">
             <span class="plink live" style="cursor: not-allowed; opacity: 0.6;">↗ Coming Soon</span>
             <a href="#" class="plink">⌥ GitHub</a>
